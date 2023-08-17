@@ -1,0 +1,1 @@
+Melhorar o numero de comparacoes no codigo do Shaker.
