@@ -1,4 +1,4 @@
-Organizar as palavras de um texto na ordem crescente (ordenar) utilizando:
+Organizar as palavras de um texto (link: https://www.ufn.edu.br/site/detalhes-noticia/reuniao-de-camara-de-ensino-discutiu-novas-acoes-da-universidade desde "A Reunião" ate "as futuras ações da UFN.") na ordem crescente (ordenar) utilizando:
 (a) bubblesort
 (b) shakersort
 O conteudo ordenado deve ser guardado em um arquivo .txt com os nomes
