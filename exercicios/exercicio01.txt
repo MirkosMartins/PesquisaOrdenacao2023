@@ -1,0 +1,7 @@
+Organizar as palavras de um texto na ordem crescente (ordenar) utilizando:
+(a) bubblesort
+(b) shakersort
+O conteudo ordenado deve ser guardado em um arquivo .txt com os nomes
+bubble-texto-nomeAluno.txt e shaker-texto-nomeAluno.txt
+
+Podem ser utilizadas as linguagens python e java.
