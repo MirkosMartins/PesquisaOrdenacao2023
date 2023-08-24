@@ -1,0 +1,331 @@
+(PDI)
+(PROAC)
+(UFN)
+(terça-feira),
+20
+2023
+22
+30
+7
+A
+Acadêmica
+Acadêmico
+Acadêmico.
+Administrativo,
+Além
+Auditório
+Binotto
+Bohnert
+Camargo,
+Carina
+Chaves,
+Colônia,
+Como
+Comunicação,
+Comunidade,
+Conjunto
+Controle
+Coordenadora
+Câmara
+Dashboard
+Desenvolvimento
+Diretor
+Diretora
+Em
+Ensino
+Este
+Extensionista
+Extensão
+Fagan,
+Faxinal
+Franciscana
+III
+III:
+Indicadores
+Informação
+Institucional
+Laíse
+Leonardo
+Maria,
+Maria.
+Mostra
+No
+Painel
+Plano
+Prédio
+Pró-reitora
+Quarta
+Reitoria.
+Relacionamento,
+Reunião
+Santa
+Sistema
+Solange
+Soturno
+Tecnologia
+UFN
+UFN,
+UFN.
+UFN.A
+UFN.De
+Universidade
+Vice-reitora,
+a
+acadêmico
+acesso
+acordo
+administrativos
+agosto
+agosto.
+alinhada
+além
+ambiente
+ano
+ao
+aos
+apoio
+apresentação
+apresentou
+aprofundado
+as
+atendimento
+atualizadas
+ação
+ações
+base
+cadastro
+capitaneado
+caso
+cidades
+colaboram
+com
+como
+compartilhar
+compartilhará
+comunidade
+comunidade,
+comunidade;
+conhecimento
+contemplando
+conversa
+coordenadores
+corpo
+cursos
+cursos,
+da
+dados
+de
+descentralizada
+desenvolvido
+deste
+dia
+do
+dois
+e
+edição
+egressos
+eixos
+em
+encontro
+ensino
+ensino-aprendizagem.
+entretenimento.
+espaços
+esta
+estas
+estatísticas
+este
+estes
+estratégicas
+estratégicos
+está
+estão
+evasão.
+expandir
+explica
+explicado
+favorecer
+foi
+fornecer,
+fortalecer
+função
+futuras
+geram
+gestores,
+gestão
+grande
+grandes
+grupo
+horizontes,
+impacto
+impacto,
+informação
+informações
+ingresso
+inovação
+inserida.Apresentado
+itinerante
+junho
+juntamente
+junto
+laços
+locais,
+mais
+matrículas,
+modelo
+modo
+mostrar
+movimentações
+movimentos
+municípios
+neste
+no
+norte
+nortearam
+nossa
+o
+objetivos
+ocorre
+oportunidade
+oportunidades
+os
+outras
+outros
+outubro
+para
+partir
+pela
+pelo
+pensadas
+percebemos
+plataforma
+pois,
+político-institucional;
+positivo
+primeira
+processos
+professora
+programados
+projetos
+projetos,
+propósito
+que
+real
+realizada
+realizado
+receber
+receberá
+referir
+registrar
+relacionamento
+reunião
+revisitar
+rodas
+se
+seletivos,
+ser
+servirão
+serviços
+setor
+setores
+sua
+surgiu
+também
+tecnologia;
+tem
+temas
+temos
+tempo
+terá
+tipificação
+todas
+trabalho
+técnico
+um
+uma
+universitária
+universitário,
+universitários
+ver
+vivência
+web
+workshops,
+à
+é
+
+Este
+
+Código:
+
+
+package shakersort;
+
+public class Main {
+	public static void main(String[] args) {
+        
+		String text = "A Reunião de Câmara de Ensino é a oportunidade de compartilhar com corpo acadêmico e técnico da Universidade Franciscana (UFN) todas as ações de ensino e as movimentações estratégicas pensadas juntamente com os cursos, setores administrativos e grupo da Reitoria. No encontro realizado neste dia 22 de agosto (terça-feira), dois grandes temas nortearam a reunião realizada no Auditório do Prédio 7 – Conjunto III: a Mostra UFN e o Dashboard UFN."
+        		+ "A Mostra UFN, que tem propósito de fortalecer os laços da Universidade com a comunidade, terá a sua edição de 2023 descentralizada ao ser realizada em outras cidades além de Santa Maria. Como é o caso de Faxinal do Soturno que receberá a Mostra contemplando todas as cidades da Quarta Colônia, no dia 30 de agosto. Como explicado pela Diretora de Comunicação, Carina Bohnert e pela Coordenadora de Relacionamento, Laíse Chaves, outros municípios também estão programados para receber esta ação itinerante que compartilhará a vivência universitária a partir de rodas de conversa com egressos locais, espaços de apresentação de projetos, serviços de apoio à comunidade, workshops, oportunidades e entretenimento. Em Santa Maria, a Mostra ocorre no dia 20 de outubro no Conjunto III da UFN."
+        		+ "De acordo com a Vice-reitora, professora Solange Binotto Fagan, a Mostra UFN está alinhada aos objetivos estratégicos do Plano de Desenvolvimento Institucional (PDI) ao fortalecer eixos de trabalho que colaboram o relacionamento político-institucional; o atendimento à comunidade; inovação e tecnologia; e o ensino-aprendizagem. “Este modelo de Mostra surgiu da nossa Mostra Extensionista pois, ao ver projetos e ações que geram este grande impacto, percebemos que temos que mostrar mais e expandir estes horizontes”, explica a professora Solange ao se referir a primeira Mostra de Extensão UFN com a Comunidade, realizada em junho deste ano e que apresentou o impacto positivo que da Universidade junto à comunidade que está inserida."
+        		+ "Apresentado pelo Diretor Acadêmico Administrativo, Leonardo de Camargo, o Dashboard UFN é uma plataforma web de gestão de dados com a função de favorecer o acesso à informação e de revisitar a base de tipificação de cadastro do Sistema Acadêmico. Este Painel de Controle com Indicadores foi desenvolvido pelo setor de Tecnologia da Informação e capitaneado pela Pró-reitora Acadêmica (PROAC) para fornecer, aos coordenadores de cursos e gestores, informações atualizadas em tempo real de modo a registrar os movimentos universitários como processos seletivos, matrículas, ingresso e evasão. Além de um conhecimento mais aprofundado do ambiente universitário, estas estatísticas também servirão de norte para as futuras ações da UFN.";
+        String[] words = text.split(" ");
+        shakerSort(words);
+        
+        String[] uniqueWords = removeDuplicates(words);
+        
+        System.out.println("Frase ordenada por palavras:");
+        for (String word : uniqueWords) {
+            System.out.print(word + " ");
+        }
+    }
+    
+    public static void shakerSort(String[] arr) {
+        int left = 0;
+        int right = arr.length - 1;
+        
+        while (left <= right) {
+            for (int i = left; i < right; i++) {
+                if (arr[i].compareTo(arr[i + 1]) > 0) {
+                    String temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                }
+            }
+            right--;
+            
+            for (int i = right; i > left; i--) {
+                if (arr[i].compareTo(arr[i - 1]) < 0) {
+                    String temp = arr[i];
+                    arr[i] = arr[i - 1];
+                    arr[i - 1] = temp;
+                }
+            }
+            left++;
+        }
+    }
+    
+    public static String[] removeDuplicates(String[] arr) {
+        int n = arr.length;
+        int uniqueCount = 0;
+
+        for (int i = 0; i < n - 1; i++) {
+            if (!arr[i].equals(arr[i + 1])) {
+                uniqueCount++;
+            }
+        }
+        uniqueCount++;
+
+        String[] uniqueArr = new String[uniqueCount];
+        int index = 0;
+        uniqueArr[index++] = arr[0];
+
+        for (int i = 1; i < n; i++) {
+            if (!arr[i].equals(arr[i - 1])) {
+                uniqueArr[index++] = arr[i];
+            }
+        }
+
+        return uniqueArr;
+    }
+
+}
+
